@@ -28,7 +28,7 @@
                 <string>version</string>
             </dict>
             <key>Processor</key>
-			<string>com.github.magnusviri.pkg.Keyspan/VariableFromPath</string>
+			<string>com.github.magnusviri.processors/VariableFromPath</string>
 		</dict>
         <dict>
             <key>Processor</key>
