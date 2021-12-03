@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of Seg3D2.</string>
+	<string>Downloads latest version of Seg3D2.</string>
 	<key>Identifier</key>
 	<string>com.github.magnusviri.download.Seg3D2</string>
 	<key>Input</key>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of seaview and creates a package.</string>
+	<string>Downloads latest version of seaview and creates a package.</string>
 	<key>Identifier</key>
 	<string>com.github.magnusviri.pkg.seaview</string>
 	<key>Input</key>
@@ -54,8 +54,6 @@
 					<string>%NAME%-%version%</string>
 					<key>pkgroot</key>
 					<string>%RECIPE_CACHE_DIR%/%NAME%</string>
-					<key>version</key>
-					<string>%version%</string>
 				</dict>
 			</dict>
 			<key>Processor</key>

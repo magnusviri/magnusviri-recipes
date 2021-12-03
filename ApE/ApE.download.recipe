@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of ApE.</string>
+	<string>Downloads latest version of ApE.</string>
 	<key>Identifier</key>
 	<string>com.github.magnusviri.download.ApE</string>
 	<key>Input</key>
@@ -14,7 +14,7 @@
 		<string>ApE</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>0.5.0</string>
+	<string>0.6.1</string>
 	<key>Process</key>
 	<array>
 		<dict>

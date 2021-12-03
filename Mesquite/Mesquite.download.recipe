@@ -18,10 +18,10 @@
 		<dict>
 			<key>Arguments</key>
 			<dict>
-				<key>github_repo</key>
-				<string>MesquiteProject/MesquiteCore</string>
 				<key>asset_regex</key>
 				<string>.*ac.*</string>
+				<key>github_repo</key>
+				<string>MesquiteProject/MesquiteCore</string>
 			</dict>
 			<key>Processor</key>
 			<string>GitHubReleasesInfoProvider</string>
@@ -43,9 +43,42 @@
 			<key>Arguments</key>
 			<dict>
 				<key>input_path</key>
-				<string>%pathname%/Mesquite_Folder/Mesquite.app</string>
+				<string>%pathname%/Mesquite_Folder/Mesquite_Starter_E1.app</string>
 				<key>requirement</key>
 				<string>identifier "start.Mesquite" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "8LT29UFQPL"</string>
+			</dict>
+			<key>Processor</key>
+			<string>CodeSignatureVerifier</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>input_path</key>
+				<string>%pathname%/Mesquite_Folder/Mesquite_Starter_E2.app</string>
+				<key>requirement</key>
+				<string>identifier "start.Mesquite" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "8LT29UFQPL"</string>
+			</dict>
+			<key>Processor</key>
+			<string>CodeSignatureVerifier</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>input_path</key>
+				<string>%pathname%/Mesquite_Folder/Mesquite_Starter_E4.app</string>
+				<key>requirement</key>
+				<string>identifier "start.Mesquite" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "8LT29UFQPL"</string>
+			</dict>
+			<key>Processor</key>
+			<string>CodeSignatureVerifier</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>input_path</key>
+				<string>%pathname%/Mesquite_Folder/Mesquite_Starter_Flex.app</string>
+				<key>requirement</key>
+				<string>identifier "com.apple.automator.Mesquite_Starter_Flex-01AutomatorOrig-2021superFlex" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "8LT29UFQPL"</string>
 			</dict>
 			<key>Processor</key>
 			<string>CodeSignatureVerifier</string>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of seaview.</string>
+	<string>Downloads latest version of seaview.</string>
 	<key>Identifier</key>
 	<string>com.github.magnusviri.download.seaview</string>
 	<key>Input</key>

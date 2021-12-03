@@ -2,10 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Comment</key>
-	<string>Created with Recipe Robot v1.0 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of SimUText.</string>
+	<string>Downloads latest version of SimUText.</string>
 	<key>Identifier</key>
 	<string>com.github.magnusviri.download.SimUText</string>
 	<key>Input</key>
@@ -16,7 +14,7 @@
 		<string>https://547264da4b8fdd572550-797074c1f5272f1615cb84698415a77a.ssl.cf1.rackcdn.com/simutext_2021-22_appcast.xml</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>0.5.0</string>
+	<string>0.6.1</string>
 	<key>Process</key>
 	<array>
 		<dict>
